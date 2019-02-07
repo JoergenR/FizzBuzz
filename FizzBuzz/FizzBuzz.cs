@@ -8,9 +8,7 @@ namespace FizzBuzz
 {
     public class FizzBuzz
     {
-        /// <summary>Gets the fizz buzz.</summary>
-        /// <param name="number">The number.</param>
-        /// <returns></returns>
+        // GetFizzBuzz returns Fizz, Buzz, Fizz Buzz or the number depending on the number.
         public static string GetFizzBuzz(int number)
         {
             if ((number % 3 == 0) && (number % 5 == 0))
