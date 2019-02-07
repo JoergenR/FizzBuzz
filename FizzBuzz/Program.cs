@@ -10,9 +10,11 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            int number = 100;
+            // The program will print from 1 to this number.
+            int endNumber = 100;
 
-            for (int i = 1; i <= number; i++)
+            // Prints out the result from 1 to endNumber
+            for (int i = 1; i <= endNumber; i++)
             {
                 var result = FizzBuzz.GetFizzBuzz(i);
 

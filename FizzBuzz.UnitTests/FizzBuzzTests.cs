@@ -11,7 +11,7 @@ namespace FizzBuzz.UnitTests
         {
             var result = FizzBuzz.GetFizzBuzz(15);
 
-            Assert.That(result, Is.EqualTo("FizzBuzz"));
+            Assert.That(result, Is.EqualTo("Fizz Buzz"));
         }
         
         [Test]
