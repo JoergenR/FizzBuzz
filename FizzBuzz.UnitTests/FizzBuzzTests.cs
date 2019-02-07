@@ -37,7 +37,5 @@ namespace FizzBuzz.UnitTests
 
             Assert.That(result, Is.EqualTo("1"));
         }
-
-
     }
 }
